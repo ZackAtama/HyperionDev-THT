@@ -1,40 +1,10 @@
 # HyperionDev-THT
 This is a repository that contains submissions for the HyperionDev Code Reviewer test assessment.
 
-# Section A: Code Review
+## Section A: Code Review
+I chose Option 1: Python Task
 
-### Option 1: Python Task
-
-Compulsory Task 1 Follow these steps:
-
-- In a file called anagram.py, create:
-
-- Given an array of strings strs, group the anagrams together.
-
-- An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
--- You can return the answer in any order.
-    -- Strings consists of lowercase English letters.
-- Example input
-
-- Input: strs = ["eat","tea","tan","ate","nat","bat"]
-
-- Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-```python
-class Solution:
-       def groupAnagrams(self, strs):
-      result = {}
-      for i in strs:
-         x = "".join(sorted())
-         if x in result:
-            result[x].append(i)
-         else:
-            result[x] = [i]
-      return list(result.values())
-ob1 = Solution()
-print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-```
-
-# Sumbission  Review
+## Sumbission  Review
 Thank you for your code submission, on trying to run your code locally, here are my observations;
 
 ### Correctness
@@ -72,4 +42,17 @@ The documentation of this assignment was okay, it does guide the candidate for t
 1. It would have been better to start with describing what an **Anagram** is
 2. Given the input example and output, there seems to have been on more instruction missing on the assignment, for the candidate submitting code to organize the array of anagrams from the array with the least number of anagrams to the largest.
 
+## Section C: Code Challenge
+I chose Option 1: Say the Number
+- [Link to assignment](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ)
+
+### How to run the app locally
+1. Clone this repository: `git clone https://github.com/ZackAtama/HyperionDev-THT/tree/section-c`
+2. Install dependencies: `npm install` or `yarn add`
+3. Run application: `npm run dev`
+
+### How to use
+1. In your terminal, soon as the application starts running, you'll be presented with a prompt in your ternimal to enter any number; `Enter any number:`
+2. Enter any number and press enter on your keyboard
+3. The application will print out your number in words and exit.
 
