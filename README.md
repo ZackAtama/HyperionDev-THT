@@ -1,10 +1,13 @@
 # HyperionDev-THT
 This is a repository that contains submissions for the HyperionDev Code Reviewer test assessment.
+- [Section A](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#subission-review)
+- [Section B](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#section-b-repository-link--live-app-link)
+- [Section C](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#section-c-code-challenge)
 
 ## Section A: Code Review
 I chose Option 1: Python Task
 
-## Sumbission  Review
+## Subission Review
 Thank you for your code submission, on trying to run your code locally, here are my observations;
 
 ### Correctness
@@ -41,6 +44,8 @@ print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 The documentation of this assignment was okay, it does guide the candidate for the assignment on what should be done, however, here are some pointers;
 1. It would have been better to start with describing what an **Anagram** is
 2. Given the input example and output, there seems to have been on more instruction missing on the assignment, for the candidate submitting code to organize the array of anagrams from the array with the least number of anagrams to the largest.
+
+## Section B: [Repository Link](https://github.com/ZackAtama/data-lytics) | [Live App Link](https://data-lytics.netlify.app/)
 
 ## Section C: Code Challenge
 I chose Option 1: Say the Number
