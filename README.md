@@ -1,8 +1,8 @@
 # HyperionDev-THT
 This is a repository that contains submissions for the HyperionDev Code Reviewer test assessment.
-- [Section A](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#subission-review)
-- [Section B](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#section-b-repository-link--live-app-link)
-- [Section C](https://github.com/ZackAtama/HyperionDev-THT/edit/main/README.md#section-c-code-challenge)
+- [Section A](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#subission-review)
+- [Section B](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#section-b-repository-link--live-app-link)
+- [Section C](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#section-c-code-challenge)
 
 ## Section A: Code Review
 I chose Option 1: Python Task
