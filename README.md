@@ -1,8 +1,8 @@
 # HyperionDev-THT
 This is a repository that contains submissions for the HyperionDev Code Reviewer test assessment.
-- [Section A](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#subission-review)
-- [Section B](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#section-b-repository-link--live-app-link)
-- [Section C](https://github.com/ZackAtama/HyperionDev-THT/edit/main/#section-c-code-challenge)
+- [Section A](https://github.com/ZackAtama/HyperionDev-THT/blob/main/README.md#subission-review)
+- [Section B](https://github.com/ZackAtama/HyperionDev-THT/blob/main/README.md#section-b-repository-link--live-app-link)
+- [Section C](https://github.com/ZackAtama/HyperionDev-THT/blob/main/README.md#section-c-code-challenge)
 
 ## Section A: Code Review
 I chose Option 1: Python Task
@@ -52,9 +52,10 @@ I chose Option 1: Say the Number
 - [Link to assignment](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ)
 
 ### How to run the app locally
-1. Clone this repository: `git clone https://github.com/ZackAtama/HyperionDev-THT/tree/section-c`
+1. Clone this repository: `git clone git@github.com:ZackAtama/HyperionDev-THT.git`
 2. Install dependencies: `npm install` or `yarn add`
-3. Run application: `npm run dev`
+3. Running tests: `npm test`
+4. Run application: `npm run dev`
 
 ### How to use
 1. In your terminal, soon as the application starts running, you'll be presented with a prompt in your ternimal to enter any number; `Enter any number:`
