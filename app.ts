@@ -1,0 +1,26 @@
+import express, {Application} from 'express';
+import * as readline from 'readline';
+
+const app: Application = express();
+
+const Num2Words = (number: any): String => {
+    const num = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split(" ");
+    const tens = "twenty thirty forty fifty sixty seventy eighty ninety".split(" ");
+    if (number < 20) return num[number];
+    const digit = number%10;
+    if (number < 100) return tens[~~(number/10)-2] + (digit? " " + num[digit]: "");
+    if (number < 1000) return num[~~(number/100)] +" hundred" + (number%100 == 0? "": " and " + Num2Words(number%100));
+    return Num2Words(~~(number/1000)) + " thousand" + (number%1000 != 0? " " + Num2Words(number%1000): "");
+}
+
+let rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+rl.question('Enter any number: ', (answer) => {
+    console.log(Num2Words(parseInt(answer)))
+rl.close();
+});
+
+app.listen(5000, () => console.log(''));
