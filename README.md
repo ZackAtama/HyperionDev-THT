@@ -34,7 +34,7 @@ ob1 = Solution()
 print(ob1.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 ```
 
-## Sumbission  Review
+# Sumbission  Review
 Thank you for your code submission, on trying to run your code locally, here are my observations;
 
 ### Correctness
