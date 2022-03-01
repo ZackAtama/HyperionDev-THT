@@ -31,10 +31,12 @@ def groupAnagrams(strs):
 			result[x] = [item]
 			
 	# Sort your final list of anagrams as per output
-	return sorted(list(result.values()), key=len)
+	final_result = [item[::-1] for item in result.values()]
+	return final_result[::-1]
 
 print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
 ```
+**Output:** `[['bat'], ['nat', 'tan'], ['ate', 'tea', 'eat']]`
 
 ### Style
 1. Indentation: Please choose a particular indentation style to use throughout, if tabs, use tabs all the way, if spaces use spaces all the way and mind how many spaces too.
@@ -48,6 +50,9 @@ The documentation of this assignment was okay, it does guide the candidate for t
 ## Section B: [Repository Link](https://github.com/ZackAtama/data-lytics) | [Live App Link](https://data-lytics.netlify.app/)
 
 ## Section C: Code Challenge
+Test Badges: [![CircleCI](https://circleci.com/gh/ZackAtama/HyperionDev-THT/tree/main.svg?style=shield)](https://circleci.com/gh/ZackAtama/HyperionDev-THT/tree/main) [![Coverage Status](https://coveralls.io/repos/github/ZackAtama/HyperionDev-THT/badge.svg?branch=main)](https://coveralls.io/github/ZackAtama/HyperionDev-THT?branch=main)
+---
+
 I chose Option 1: Say the Number
 - [Link to assignment](https://edabit.com/challenge/4E9gTrRWErpTCA2FQ)
 
