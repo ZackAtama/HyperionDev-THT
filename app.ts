@@ -35,6 +35,7 @@ export const CoverNumber = (status: String) => {
     });
 };
 
+CoverNumber('y')
 
-app.listen(CoverNumber('y'));
+app.listen(5000);
 

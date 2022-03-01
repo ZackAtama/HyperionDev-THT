@@ -2,23 +2,17 @@
 	"name": "HyperionDev-THT",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
 	"scripts": {
 		"start": "nodemon app.ts",
 		"dev": "nodemon app.ts",
-		"test": "jest --coverage && coveralls < coverage/lcov.info --forceExit"
+		"test": "jest --forceExit --coverage && coveralls < coverage/lcov.info"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/ZackAtama/HyperionDev-THT.git"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/ZackAtama/HyperionDev-THT/issues"
-	},
-	"homepage": "https://github.com/ZackAtama/HyperionDev-THT#readme",
+	"author": "Atama Zack",
 	"dependencies": {
 		"@types/body-parser": "^1.19.2",
 		"@types/request": "^2.48.8",
